@@ -55,29 +55,6 @@ button:hover {
     height: 600px;
 }
 
-.prev,
-.next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    color: #bbb;
-    width: auto;
-    padding: 16px;
-    transition: 0.6s ease;
-    user-select: none;
-}
-
-.next {
-    right: 0;
-    width: 20px;
-    height: 20px;
-}
-
-.prev:hover,
-.next:hover {
-    color: white;
-}
-
 .dots {
     position: absolute;
     bottom: 20px;

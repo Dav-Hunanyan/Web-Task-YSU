@@ -31,9 +31,6 @@
                                 style="width:100%; height:600px">
                         </div>
 
-                        <a class="prev" onclick="plusSlides(-1)">❮</a>
-                        <a class="next" onclick="plusSlides(1)">❯</a>
-
                         <div class="dots">
                             <span class="dot" onclick="currentSlide(1)"></span>
                             <span class="dot" onclick="currentSlide(2)"></span>
@@ -75,10 +72,6 @@
                             <button>GET STARTED</button>
                         </div>
                     </div>
-
-
-
-
 
                 </div>
             </section>
@@ -497,12 +490,8 @@
         </div>
         <script>
             let slideIndex = 1;
-            showSlides(slideIndex);
-            
-            function plusSlides(n) {
-              showSlides(slideIndex += n);
-            }
-            
+            showSlides(slideIndex);            
+                      
             function currentSlide(n) {
               showSlides(slideIndex = n);
             }
